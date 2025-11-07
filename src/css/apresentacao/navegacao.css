@@ -1,0 +1,38 @@
+#menuNavegacao,
+#logoNavegacao,
+#campoDeBusca,
+#botaoBuscar {
+    height: 46px;
+}
+
+#navegacao {
+    height: 56px;
+    background-color: var(--cor-principal);
+}
+
+
+#logoNavegacao {
+    background-color: gray;
+    width: 100px;
+}
+
+#menuNavegacao {
+    width: 350px;
+    margin: 0 100px 0 100px;
+}
+
+#menuNavegacao {
+    background-color: rgb(226, 226, 226);
+}
+#formularioDeBusca{
+    position: relative;
+    background-color: aqua;
+}
+#campoDeBusca{
+    width: 500px;
+}
+#botaoBuscar{
+    width: 46px;
+    position: absolute;
+    right: 0px;
+}
