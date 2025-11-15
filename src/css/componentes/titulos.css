@@ -1,4 +1,4 @@
-.tituloTrabalhoAberto,.tituloParaOutrasPecas{
+.tituloTrabalhoAberto,.tituloParaOutrasPecas,.tituloOutrosTrabalhos{
     font-size: 21pt;
     width: 800px;
     color: var(--cor-texto-trabalho-aberto);
@@ -6,4 +6,8 @@
 .tituloParaOutrasPecas{
     text-align: left;
     align-self: flex-start;
+}
+.tituloOutrosTrabalhos{
+    margin: 233px 0 145px 0;
+    text-align: center;
 }

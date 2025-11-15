@@ -1,3 +1,4 @@
+#gradeDeCardsOutrosTrabalhos,
 #gradeDeCards{
     /* background-color: white; */
     width: var(--largura-maxima);
@@ -7,6 +8,11 @@
     gap: 40px;
     justify-content: center;
     margin: auto;
+}
+#gradeDeCardsOutrosTrabalhos{
+    justify-content: space-between;
+    height: auto;
+    margin-bottom: 270px;
 }
 .card{
     background-color: var(--fundo-miniatura);
