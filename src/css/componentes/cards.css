@@ -1,0 +1,45 @@
+#gradeDeCards{
+    /* background-color: white; */
+    width: var(--largura-maxima);
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+.card{
+    background-color: var(--fundo-miniatura);
+    width: 350px;
+    height: 260px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+ 
+}
+.card::before,
+.card::after {
+    content: "";
+    position: absolute;
+    width: 425px;
+    /* maior que a div para atravessar ela inteira */
+    height: 2px;
+    /* espessura da linha */
+    background: gray;
+    top: 50%;
+    left: -40px;
+    /* ajusta a posição do início da linha */
+
+}
+
+.card::before {
+    transform: rotate(323deg);
+
+}
+
+.card::after {
+    transform: rotate(-323deg);
+
+}

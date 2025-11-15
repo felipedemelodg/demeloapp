@@ -4,34 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Título do Seu Site</title>
+    <title>de Mello</title>
     <link rel="stylesheet" href="src/css/base/cores.css">
     <link rel="stylesheet" href="src/css/base/larguras.css">
     <link rel="stylesheet" href="src/css/base/reset.css">
     <link rel="stylesheet" href="src/css/layout/apresentacao.css">
     <link rel="stylesheet" href="src/css/layout/conteudo.css">
-    <link rel="stylesheet" href="src/css/componentes/miniatura.css">
+    <link rel="stylesheet" href="src/css/componentes/cards.css">
+    <link rel="stylesheet" href="src/css/componentes/botoes.css">
+    <link rel="stylesheet" href="src/css/componentes/menus.css">
+    <link rel="stylesheet" href="src/css/componentes/formularios.css">
+    <link rel="stylesheet" href="src/css/componentes/sliders.css">
     <link rel="stylesheet" href="src/css/layout/rodape.css">
 </head>
-    <style>
-        body{
-            display: flex;
-            flex-direction: column;
-        }
-    </style>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+</style>
+
 <body>
     <header id="apresentacao">
         <nav id="navegacao">
-            <!-- <img src="" alt="" id="logoNavegacao">
+            <div id="logoNavegacao"></div>
             <ul id="menuNavegacao">
                 <li class="menuBotao"><a href="#">Menu</a> </li>
                 <li class="menuBotao"><a href="#">Menu</a> </li>
                 <li class="menuBotao"><a href="#">Menu</a> </li>
             </ul>
-            <form id="formularioDeBusca">
+            <form id="formularioDeBusca" >
                 <input type="text" id="campoDeBusca">
                 <button id="botaoBuscar">Buscar</button>
-            </form> -->
+            </form>
         </nav>
         <section id="sliders">
             <section id="listaDeImagens">
@@ -51,13 +56,13 @@
         </section>
     </header>
     <main id="conteudo">
-        <section id="miniaturas">
-            <section class="miniatura"></section>
-            <section class="miniatura"></section>
-            <section class="miniatura"></section>
-            <section class="miniatura"></section>
-            <section class="miniatura"></section>
-            <section class="miniatura"></section>
+        <section id="gradeDeCards">
+            <section class="card"><div class="interacao"><button class="botaoFavorito"></button> <button class="botaoGostei"></button></div></section>
+            <section class="card"><div class="interacao"><button class="botaoFavorito"></button> <button class="botaoGostei"></button></div></section>
+            <section class="card"><div class="interacao"><button class="botaoFavorito"></button> <button class="botaoGostei"></button></div></section>
+            <section class="card"><div class="interacao"><button class="botaoFavorito"></button> <button class="botaoGostei"></button></div></section>
+            <section class="card"><div class="interacao"><button class="botaoFavorito"></button> <button class="botaoGostei"></button></div></section>
+            <section class="card"><div class="interacao"><button class="botaoFavorito"></button> <button class="botaoGostei"></button></div></section>
         </section>
     </main>
     <footer id="rodape"></footer>

@@ -7,45 +7,15 @@
 }
 
 #navegacao {
-    background-color: azure;
     height: 56px;
     width: var(--largura-maxima);
     position: fixed;
     top: 16px;
     z-index: 1;
-}
-
-#sliders {
-    width: 100vw;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
-#listaDeImagens {
-    position: relative;
-    width: 100%;
-    /* <-- NÃO usa 100vw */
-    height: 100vh;
-    overflow: hidden;
-}
 
-#listaDeImagens>img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
-#slidersNavegacao {
-
-    position: relative;
-    bottom: 40px;
-    /* z-index: 1; */
-    height: 20px;
-    width: 200px;
-    background-color: red;
-}
