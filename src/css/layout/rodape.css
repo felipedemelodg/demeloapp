@@ -1,0 +1,5 @@
+#rodape {
+    background-color: var(--fundo-rodape);
+    width: 100%;
+    height: 50px;
+}

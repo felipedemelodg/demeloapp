@@ -1,0 +1,8 @@
+:root{
+    --cor-principal:#4d4d4d;
+    --cor-secundaria:rgb(78, 78, 78);
+    --cor-tercearia:rgb(185, 185, 185);
+    --fundo-apresentacao:rgb(204,204,204);
+    --fundo-miniaturas:rgb(216,216,216);
+    --fundo-rodape:rgb(41, 41, 41);
+}
