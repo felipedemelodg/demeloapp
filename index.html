@@ -6,16 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Título do Seu Site</title>
     <link rel="stylesheet" href="src/css/base/cores.css">
+    <link rel="stylesheet" href="src/css/base/larguras.css">
     <link rel="stylesheet" href="src/css/base/reset.css">
     <link rel="stylesheet" href="src/css/layout/apresentacao.css">
     <link rel="stylesheet" href="src/css/layout/conteudo.css">
+    <link rel="stylesheet" href="src/css/componentes/miniatura.css">
     <link rel="stylesheet" href="src/css/layout/rodape.css">
 </head>
-
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
 <body>
     <header id="apresentacao">
-        <!-- <nav id="navegacao">
-            <img src="" alt="" id="logoNavegacao">
+        <nav id="navegacao">
+            <!-- <img src="" alt="" id="logoNavegacao">
             <ul id="menuNavegacao">
                 <li class="menuBotao"><a href="#">Menu</a> </li>
                 <li class="menuBotao"><a href="#">Menu</a> </li>
@@ -24,9 +31,9 @@
             <form id="formularioDeBusca">
                 <input type="text" id="campoDeBusca">
                 <button id="botaoBuscar">Buscar</button>
-            </form>
-        </nav> -->
-        <!-- <section id="sliders">
+            </form> -->
+        </nav>
+        <section id="sliders">
             <section id="listaDeImagens">
                 <img src="/img/sliders01.png" alt="">
                 <img src="/img/sliders02.png" alt="">
@@ -41,17 +48,17 @@
                 <li class="botaoDeNavegacaoDosSliders"></li>
                 <li class="botaoDeNavegacaoDosSliders"></li>
             </ul>
-        </section> -->
+        </section>
     </header>
     <main id="conteudo">
-        <!-- <section id="miniaturas">
+        <section id="miniaturas">
             <section class="miniatura"></section>
             <section class="miniatura"></section>
             <section class="miniatura"></section>
             <section class="miniatura"></section>
             <section class="miniatura"></section>
             <section class="miniatura"></section>
-        </section> -->
+        </section>
     </main>
     <footer id="rodape"></footer>
 </body>

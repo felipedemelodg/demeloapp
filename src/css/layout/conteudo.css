@@ -1,5 +1,8 @@
 #conteudo{
-    background-color: var(--fundo-miniaturas);
+    background-color: var(--fundo-conteudo);
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
