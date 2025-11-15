@@ -1,8 +1,15 @@
 #conteudo{
     background-color: var(--fundo-conteudo);
-    height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
+    /* align-items: center; */
+}
+#trabalhoAberto{
+    background-color: var(--fundo-trabalho-aberto);
+    width: 100%;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }

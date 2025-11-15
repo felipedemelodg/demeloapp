@@ -1,11 +1,12 @@
 #gradeDeCards{
     /* background-color: white; */
     width: var(--largura-maxima);
-    height: auto;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
+    margin: auto;
 }
 .card{
     background-color: var(--fundo-miniatura);
