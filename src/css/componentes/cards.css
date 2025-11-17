@@ -2,12 +2,12 @@
 #gradeDeCards{
     /* background-color: white; */
     width: var(--largura-maxima);
-    height: 500px;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
-    margin: auto;
+    margin: 100px 0px 100px 0px ;
 }
 #gradeDeCardsOutrosTrabalhos{
     justify-content: space-between;
@@ -48,5 +48,38 @@
 
 .card::after {
     transform: rotate(-323deg);
+
+}
+.classificacao{
+    display: flex;
+    width: 350px;
+    height: 137px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-secundaria);
+}
+.etiquetas{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 300px;
+}
+.buttonsCards{
+    width: 100%;
+}
+.buttonsCards>button{
+    width: 21px;
+    height: 21px;
+    border-radius: 21px;
+    border: none;
+    cursor: pointer;
+}
+.etiqueta{
+    cursor: pointer;
+    background-color: var(--cor-da-etiqueta);
+    color: var(--cor-secundaria);
+    height: 20px;
+    padding: 0 10px 0 10px;
 
 }

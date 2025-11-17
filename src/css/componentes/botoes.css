@@ -14,13 +14,10 @@
     content: "";
     position: absolute;
     width: 110px;
-    /* maior que a div para atravessar ela inteira */
     height: 2px;
-    /* espessura da linha */
     background: white;
     top: 50%;
     left: -6px;
-    /* ajusta a posição do início da linha */
 
 }
 
