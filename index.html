@@ -5,207 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>de Mello</title>
-    <link rel="stylesheet" href="src/css/base/cores.css">
-    <link rel="stylesheet" href="src/css/base/larguras.css">
-    <link rel="stylesheet" href="src/css/base/reset.css">
-    <link rel="stylesheet" href="src/css/base/tipografia.css">
-    <link rel="stylesheet" href="src/css/layout/apresentacao.css">
-    <link rel="stylesheet" href="src/css/layout/conteudo.css">
-    <link rel="stylesheet" href="src/css/componentes/cards.css">
-    <link rel="stylesheet" href="src/css/componentes/botoes.css">
-    <link rel="stylesheet" href="src/css/componentes/menus.css">
-    <link rel="stylesheet" href="src/css/componentes/formularios.css">
-    <link rel="stylesheet" href="src/css/componentes/sliders.css">
-    <link rel="stylesheet" href="src/css/componentes/titulos.css">
-    <link rel="stylesheet" href="src/css/layout/rodape.css">
+    <link rel="stylesheet" href="/src/assets/css/styles.css">
 </head>
 <style>
-    body {
-        display: flex;
-        flex-direction: column;
-    }
+/* /js/main.js
+
+/js/modules/menu.js (menu mobile)
+
+/js/modules/animations.js (scroll, fade)
+
+/js/utils/dom.js (funções utilitárias)
+
+/js/data/projetos.js (se quiser gerar cards pelo JS) */
+
 </style>
 
 <body>
-    <header id="apresentacao">
-        <nav id="navegacao">
-            <div id="logoNavegacao"></div>
-            <ul id="menuNavegacao">
-                <li class="menuBotao"><a href="#">Menu</a> </li>
-                <li class="menuBotao"><a href="#">Menu</a> </li>
-                <li class="menuBotao"><a href="#">Menu</a> </li>
-            </ul>
-            <form id="formularioDeBusca">
-                <input type="text" id="campoDeBusca">
-                <button id="botaoBuscar">Buscar</button>
-            </form>
-        </nav>
-        <section id="sliders">
-            <section id="listaDeImagens">
-                <img src="/img/sliders01.png" alt="">
-                <img src="/img/sliders02.png" alt="">
-                <img src="/img/sliders03.png" alt="">
-                <img src="/img/sliders04.png" alt="">
-                <img src="/img/sliders05.png" alt="">
-            </section>
-            <ul id="slidersNavegacao">
-                <li class="botaoDeNavegacaoDosSliders"></li>
-                <li class="botaoDeNavegacaoDosSliders"></li>
-                <li class="botaoDeNavegacaoDosSliders"></li>
-                <li class="botaoDeNavegacaoDosSliders"></li>
-                <li class="botaoDeNavegacaoDosSliders"></li>
-            </ul>
-        </section>
-    </header>
-    <main id="conteudo">
-        <section id="gradeDeCards">
-            <section class="card">
-                <div class="classificacao">
-                    <div class="etiquetas">
-                        <div class="buttonsCards">
-                            <button class="compartilhar"></button>
-                            <button class="curtir"></button>
-                        </div>
-                        <div class="etiqueta">Ilustração</div>
-                        <div class="etiqueta">Vetorial</div>
-                        <div class="etiqueta">Folder</div>
-                        <div class="etiqueta">Mascote</div>
-                        <div class="etiqueta">Embalagem</div>
-                        <div class="etiqueta">LHTML</div>
-                        <div class="etiqueta">LCSS</div>
-                    </div>
-                </div>
-            </section>
-            <section class="card">
-                <div class="classificacao">
-                    <div class="etiquetas">
-                        <div class="buttonsCards">
-                            <button class="compartilhar"></button>
-                            <button class="curtir"></button>
-                        </div>
-                        <div class="etiqueta">Folder</div>
-                        <div class="etiqueta">Editorial</div>
-                        <div class="etiqueta">Mascote</div>
-                        <div class="etiqueta">Identidade Visual</div>
-                        <div class="etiqueta">JavaScript</div>
-                        <div class="etiqueta">Landing Page</div>
-                        <div class="etiqueta">Responsivo</div>
-                    </div>
-                </div>
-            </section>
-            <section class="card">
-                <div class="classificacao">
-                    <div class="etiquetas">
-                        <div class="buttonsCards">
-                            <button class="compartilhar"></button>
-                            <button class="curtir"></button>
-                        </div>
-                        <div class="etiqueta">Vetorial</div>
-                        <div class="etiqueta">Folder</div>
-                        <div class="etiqueta">Embalagem</div>
-                        <div class="etiqueta">Ilustração</div>
-                        <div class="etiqueta">Responsivo</div>
-                        <div class="etiqueta">CSS</div>
-                        <div class="etiqueta">JavaScript</div>
-                    </div>
-                </div>
-            </section>
-            <section class="card">
-                <div class="classificacao">
-                    <div class="etiquetas">
-                        <div class="buttonsCards">
-                            <button class="compartilhar"></button>
-                            <button class="curtir"></button>
-                        </div>
-                        <div class="etiqueta">Personagem</div>
-                        <div class="etiqueta">Mascote</div>
-                        <div class="etiqueta">Embalagem</div>
-                        <div class="etiqueta">UI</div>
-                        <div class="etiqueta">HTML</div>
-                        <div class="etiqueta">CSS</div>
-                        <div class="etiqueta">JavaScript</div>
-                    </div>
-                </div>
-                <!-- Ilustração • Vetorial • Personagem • Mascote • Concept • Editorial • Identidade Visual • Logo • Social Media • Cartão • Folder • Embalagem • UI • HTML • CSS • JavaScript • Landing Page • Responsivo -->
-            </section>
-            <section class="card">
-                <div class="classificacao">
-                    <div class="etiquetas">
-                        <div class="buttonsCards">
-                            <button class="compartilhar"></button>
-                            <button class="curtir"></button>
-                        </div>
-                        <div class="etiqueta">Vetorial</div>
-                        <div class="etiqueta">Personagem</div>
-                        <div class="etiqueta">Folder</div>
-                        <div class="etiqueta">Embalagem</div>
-                        <div class="etiqueta">UI</div>
-                        <div class="etiqueta">HTML</div>
-                        <div class="etiqueta">Identidade</div>
-                    </div>
-                </div>
-            </section>
-            <section class="card">
-                <div class="classificacao">
-                    <div class="etiquetas">
-                        <div class="buttonsCards">
-                            <button class="compartilhar"></button>
-                            <button class="curtir"></button>
-                        </div>
-                        <div class="etiqueta">Cartão</div>
-                        <div class="etiqueta">Mascote</div>
-                        <div class="etiqueta">Concept</div>
-                        <div class="etiqueta">Editorial</div>
-                        <div class="etiqueta">Identidade Visual</div>
-                        <div class="etiqueta">Logo</div>
-                        <div class="etiqueta">Social Media</div>
-                    </div>
-                </div>
-            </section>
-        </section>
 
-        <!-- Ilustração • Vetorial • Personagem • Mascote • Concept • Editorial • Identidade Visual • Logo • Social Media • Cartão • Folder • Embalagem • UI • HTML • CSS • JavaScript • Landing Page • Responsivo -->
-        <sectio id="trabalhoAberto" style="display: none;">
-
-            <section id="slideTrabalhoAberto">
-                <button class="botaoFecharTrabalho">X</button>
-                <h1 class="tituloTrabalhoAberto">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora pariatur nostrum dolores, incidunt
-                    ipsa obcaecati sint id consectetu.
-                </h1>
-                <img alt="" class="imagemPecaTrabalhoAberto">
-
-                <h2 class="tituloParaOutrasPecas">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aliquid.
-                </h2>
-                <section id="gradeMiniaturasTrabalhoAberto">
-
-                    <div class="miniaturaTrabalhoAberto"></div>
-                    <div class="miniaturaTrabalhoAberto"></div>
-                    <div class="miniaturaTrabalhoAberto"></div>
-                    <div class="miniaturaTrabalhoAberto"></div>
-                </section>
-
-            </section>
-
-            <section id="outrosTrabalhos">
-                <h2 class="tituloOutrosTrabalhos">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad consectetur tempor.
-                    </h3>
-                    <section id="gradeDeCardsOutrosTrabalhos">
-                        <section class="card"></section>
-                        <section class="card"></section>
-                        <section class="card"></section>
-                        <section class="card"></section>
-                        <section class="card"></section>
-                        <section class="card"></section>
-                    </section>
-            </section>
-        </sectio>
-
-
-    </main>
-    <footer id="rodape"></footer>
+    <script src="/src/js/main.js"></script>
 </body>
 
 </html>
