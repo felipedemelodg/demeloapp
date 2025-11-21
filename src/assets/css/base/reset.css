@@ -1,0 +1,62 @@
+/* ============================================================
+   RESET.CSS — Reset Moderno e Profissional
+   ============================================================ */
+
+/* Remove margens e paddings padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove estilos de listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove estilos padrão de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove bordas de inputs/buttons */
+input, button, textarea, select {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: inherit;
+}
+
+/* Imagens responsivas */
+img, picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Botões sem estilo padrão */
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+/* Remove estilos de tabela */
+table {
+  border-collapse: collapse;
+}
+
+/* Parágrafos mais bonitos e fluidos */
+p {
+  line-height: 1.6;
+}
+
+/* Suaviza fontes em telas */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  min-height: 100vh;
+}
