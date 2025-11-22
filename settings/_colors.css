@@ -1,0 +1,86 @@
+:root {
+  
+  /*1. PALETA BRUTA (neutros e brande) */
+    --gray-900: #0a0a0a;
+    --gray-800: #1a1a1a;
+    --gray-700: #333333;
+    --gray-600: #4d4d4d;
+    --gray-500: #666666;
+    --gray-400: #808080;
+    --gray-300: #999999;
+    --gray-200: #b3b3b3;
+    --gray-100: #cccccc;
+    --gray-50: #e6e6e6;
+
+    --color-primary-main: #ff6f61; /*cor primaria */ 
+    --color-secondary-main: #0d0d0d;/*cor secondária*/
+
+    --color-success: rgb(40, 158, 40);
+    --color-warning: rgb(255, 208, 0);
+    --color-error: rgb(209, 3, 3);
+    --color-info: rgb(0, 129, 214);
+
+/* 2. Token semânticos - theme dark*/
+ /*---texto--- */
+      /* texto principal*/
+      --color-text-primary: var(--gray-50);
+      /*textos médios */
+      --color-text-secondary:var(--gray-50);
+      /*textos fracos */
+      --color-text-muted: var(--gray-50);
+      /*texto sobre areas claras */
+      --color-text-inverse: var(--gray-50);
+
+/*---fundos--- */
+      /*fundo principal*/
+      --color-bg-primary: var(--gray-900);
+      /* cartões e blocos*/
+      --color-bg-secondary: var(--gray--800);
+      /*separações sutis */
+      --color-bg-tertiary: var(--gray-50);
+      /*fundo claro em dark */
+      --color-bg-primary: var(--gray-50);
+
+/*---bordas---*/      
+    --color-border-light: var(--gray-700);
+    --color-border: var(--gray-600);
+    --color-border-strong: var(--gray-500);
+
+/* ---estados (UI Feddback)--- */
+   --color-state-success:var(--color-success);
+   --color-state-warning:var(--color-warning);
+   --color-state-error:var(--color-error);
+   --color-state-info:var(--color-info);
+   
+/* --- interações --- */
+--color-hover:var(--gray-800);
+--color-active:var(--gray-700);
+--color-focus:var(--gray-500);
+
+/* ---componentes--- */
+--color-card-bg:var(--gray-800);
+--color-header-bg:var(--gray-900);
+--color-footer-bg:var(--gray-900);
+
+--color-input-bg:var(--gray-800);
+--color-input-text:var(--gray-50);
+--color-input-placeholder:var(--gray-400);
+
+--color-button-primary-bg:var(--color-primary-main);
+--color-button-primary-text:var(--gray-900);
+
+--color-button-secondary-bg:var(--gray-700);
+--color-button-secondary-text:var(--gray-50);
+
+  }
+
+/*:root {
+    --color-cta-button: #ffc107;
+    --color-bg-default: #ffffff;
+    --color-text-default: #212121;
+    --color-text-subtitle: #666666;
+    --color-cta-hover: #c09103;
+
+}*/
+
+/* estudar as cores */
