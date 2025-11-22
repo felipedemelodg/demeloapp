@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url(/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(/fonts/Montserrat-Regular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url(/fonts/Montserrat-SemiBold.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Thin';
+    src: url(/fonts/Montserrat-Thin.ttf);
+    font-display: swap;
+}
+
+
+:root {
+    /* cores */
+    --gray-1000: #0a0a0a;
+    --gray-900: #1a1a1a;
+    --gray-800: #333333;
+    --gray-700: #4d4d4d;
+    --gray-600: #666666;
+    --gray-500: #808080;
+    --gray-400: #999999;
+    --gray-300: #b3b3b3;
+    --gray-200: #cccccc;
+    --gray-100: #e6e6e6;
+    /* espaçamento */
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-7: 2rem;
+    --space-8: 2.5rem;
+    --space-9: 3rem;
+    --space-10: 4rem;
+    /* fontes */
+    --main-font: 'Montserrat-Regular';
+    --bold-font: 'Montserrat-Bold';
+    --medium-font: 'Montserrat-Medium';
+    --semibold-font: 'Montserrat-SemiBold';
+    --thin-font: 'Montserrat-Thin';
+    /* larguras  */
+    --width-sm: 20rem;
+    /* 320px */
+    --width-md: 24rem;
+    /* 384px */
+    --width-lg: 28rem;
+    /* 448px */
+    --width-xl: 32rem;
+    /* 512px */
+    --max-width: 75rem;
+    /* 1200px */
+
+    /* Escala Tipográfica (Font Sizes) */
+
+    /* Tamanho Base / Padrão do Corpo */
+    --font-size-base: 1rem;
+    /* 16px */
+
+    /* Tamanhos Menores (Small Text, Captions) */
+    --font-size-sm: 0.875rem;
+    /* 14px */
+    --font-size-xs: 0.75rem;
+    /* 12px */
+
+    /* Tamanhos Maiores (Headings H1-H6) */
+    --font-size-md: 1.125rem;
+    /* 18px (H6 ou Subtítulo) */
+    --font-size-lg: 1.25rem;
+    /* 20px (H5) */
+    --font-size-xl: 1.5rem;
+    /* 24px (H4) */
+    --font-size-2xl: 1.875rem;
+    /* 30px (H3) */
+    --font-size-3xl: 2.25rem;
+    /* 36px (H2) */
+    --font-size-4xl: 3rem;
+    /* 48px (H1) */
+}
+
+
+body {
+    font-family: var(--main-font);
+    font-size: var(--font-size-sm);
+}
+
+#header {
+    position: fixed;
+    font-family: var(--main-font);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    min-width: var(--width-sm);
+    background-color: var(--gray-800);
+}
+
+.container {
+    max-width: var(--max-width);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background-color: rebeccapurple;
+}
+
+.logo {
+    width: 100px;
+    height: 100%;
+    background-color: var(--gray-700);
+    cursor: pointer
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--width-lg);
+    height: 100%;
+}
+
+.nav-menu>ul {
+    display: flex;
+}
+
+.nav-menu>ul>li {
+    margin: 0 var(--space-6) 0 var(--space-6);
+}
+
+.nav-menu>ul>li>a {
+    color: var(--gray-300);
+}
+
+#search-form {
+    display: grid;
+    grid-template-areas: "field";
+    width: var(--width-xl);
+    height: auto;
+    background-color: var(--gray-800);
+}
+
+#search-field {
+    grid-area: field;
+    width: 100%;
+    height: 56px;
+    padding-right: 60px;
+    box-sizing: border-box;
+}
+
+.btn-search {
+    grid-area: field;
+    justify-self: end;
+    align-self: center;
+    z-index: 1;
+    display: block;
+}
+
+.btn {
+    width: 56px;
+    height: 56px;
+}
