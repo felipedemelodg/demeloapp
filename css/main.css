@@ -6,33 +6,6 @@
     text-decoration: none;
 }
 
-@font-face {
-    font-family: 'Montserrat-Bold';
-    src: url(/fonts/Montserrat-Bold.ttf);
-}
-
-@font-face {
-    font-family: 'Montserrat-Medium';
-    src: url(/fonts/Montserrat-Medium.ttf);
-}
-
-@font-face {
-    font-family: 'Montserrat-Regular';
-    src: url(/fonts/Montserrat-Regular.ttf);
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Montserrat-SemiBold';
-    src: url(/fonts/Montserrat-SemiBold.ttf);
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Montserrat-Thin';
-    src: url(/fonts/Montserrat-Thin.ttf);
-    font-display: swap;
-}
 
 
 :root {
@@ -58,12 +31,7 @@
     --space-8: 2.5rem;
     --space-9: 3rem;
     --space-10: 4rem;
-    /* fontes */
-    --main-font: 'Montserrat-Regular';
-    --bold-font: 'Montserrat-Bold';
-    --medium-font: 'Montserrat-Medium';
-    --semibold-font: 'Montserrat-SemiBold';
-    --thin-font: 'Montserrat-Thin';
+    
     /* larguras  */
     --width-sm: 20rem;
     /* 320px */
