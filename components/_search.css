@@ -1,0 +1,28 @@
+/* search form */
+#search-form{
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+
+#search-field{
+    padding: .5rem 1rem;
+    background: var(--search-bg);
+    color: var(--search-text);
+    border: 1px solid var(--search-border);
+    border-radius: 6px;
+    font-size: var(--font-size-sm);
+}
+.btn-search{
+    padding: .5rem 1rem;
+    background: var(--search-btn-bg);
+    color: var(--search-btn-text);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: var(--font-family-semibold);
+    transition: opacity .2s ease;
+}
+.btn-search:hover{
+    opacity: .85;
+}
