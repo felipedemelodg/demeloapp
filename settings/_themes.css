@@ -1,0 +1,19 @@
+:root{
+    /* header */
+    --header-height:72px;
+    --header-bg:var(--color-br-primary);
+    --header-text:var(--color-text-inverse);
+
+    /* navegacao */
+    --nav-item-color:var(--color-text-inverse);
+    --nav-item-hover:var(--color-primary-main);
+
+    /* busca */
+    --search-bg:var(--gray-800);
+    --search-text:var(--color-text-primary);
+    --search-border:var(--gray-700);
+
+    /* botao do search */
+    --search-btn-bg:var(--color-primary-main);
+    --search-btn-text:#fff;
+}
