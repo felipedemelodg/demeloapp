@@ -1,0 +1,61 @@
+/* base typography */
+body {
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    color: var(--color-text-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family-semibold);
+    line-height: var(--line-height-heading);
+    margin-bottom: var(--heading-margin-bottom);
+    color: var(--color-text-primary);
+}
+
+
+h1 {
+    font-size: var(--font-size-h1);
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+}
+
+h3 {
+    font-size: var(--font-size-h3);
+}
+
+h4 {
+    font-size: var(--font-size-h4);
+}
+
+h5 {
+    font-size: var(--font-size-h5);
+}
+
+h6 {
+    font-size: var(--font-size-h6);
+}
+/* paragrafos */
+p{
+    margin-bottom: 1em;
+    color: var(--color-text-secondary);
+}
+/* links */
+a{
+    color:var(--color-text-primary-main);
+    text-decoration: none;
+}
+a:hover{
+    color:var(--color-hover)
+}
+/* lista */
+ul,ol{
+    padding-left: 1.5rem;
+}
