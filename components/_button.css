@@ -1,0 +1,6 @@
+.c-button-primary{
+    background: var(--color-button-primary-bg);
+    color: var(--color-button-primary-text);
+    padding: irem 2rem;
+    border-radius: 4px;
+}
