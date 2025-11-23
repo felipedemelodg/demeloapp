@@ -1,0 +1,24 @@
+/* text components */
+
+/* pequeno texto informativo */
+.text-muded{
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muded);
+}
+/* texto inverso (para hearder dark) */
+.text-inverse{
+    color:var(--color-text-inverse)
+}
+/* subtitulo */
+.subtitle{
+    font-size: var(--font-size-h6);
+    font-family: var(--font-family-medium);
+    color: var(--color-text-secondary);
+}
+/* titulo estilizado criativo */
+.title-highlight{
+    font-size: var(--font-size-h2);
+    font-family: var(--font-family-bold);
+    color:var(--color-primary-main);
+    letter-spacing: -0.5px;
+}
