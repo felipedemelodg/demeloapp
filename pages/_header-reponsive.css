@@ -1,0 +1,15 @@
+/* reponsive header */
+/* mobile = menu vira vertical */
+@media(max-width: 768px) {
+    #header .container {
+        gap: 1rem;
+    }
+
+    .nav-menu ul {
+        gap: 1rem;
+    }
+
+    #search-form{
+        display: none;
+    }
+}
