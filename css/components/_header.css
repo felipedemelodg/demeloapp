@@ -9,7 +9,7 @@
 }
 
 /* container interno */
-#header .container{
+#header .container {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
@@ -20,8 +20,9 @@
     justify-content: space-between;
     gap: 2rem;
 }
+
 /* logo */
-#header .logo{
+#header .logo {
     height: 38px;
     width: auto;
 }

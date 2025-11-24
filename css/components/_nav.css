@@ -1,15 +1,19 @@
 /* navigation */
-.nav-menu ul{
+.nav-menu ul {
     display: flex;
     gap: 2rem;
     list-style: none;
 }
-.nav-menu .nav-item a{
+
+.nav-menu .nav-item a {
     color: var(--nav-item-color);
     font-family: var(--font-family-medium);
     font-size: var(--font-size-sm);
     transition: color .2s ease;
 }
-.nav-menu .nav-item a:hover{
+
+.nav-menu .nav-item a:hover {
     color: var(--nav-item-hover);
 }
+
+/* E) Continuar aprimorando o HEADER (menu mobile, hambúrguer, sticky, blur) */
