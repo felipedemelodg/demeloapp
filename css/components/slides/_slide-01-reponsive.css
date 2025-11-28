@@ -1,0 +1,10 @@
+@media(max-width:360px){
+    :root{
+        --slide01-xicara-t:30%;
+        --slide01-mouse-t:88%;
+        --slide01-mousepad-t:50%;
+        --slide01-tampa-t:15%;
+        --slide01-caneta-t:35%;
+        --slide01-caneta-l:95%;
+    }   
+}

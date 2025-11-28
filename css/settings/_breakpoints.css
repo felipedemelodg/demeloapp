@@ -1,0 +1,13 @@
+:root {
+
+    /* mobiles */
+    --bp-mobile-sm: 360px;
+    --bp-mobile: 480px;
+    /*  Tablet / Laptop */
+    --bp-tablet: 768px;
+    --bp-laptop: 1024px;
+    /*  Desktops */
+    --bp-desktop: 1280px;
+    --bp-desktop-lg: 1440px;
+    --bp-ultra: 1920px;
+}

@@ -1,0 +1,15 @@
+.nav-menu-button{
+    width: 24px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+.nav-menu-button>div{
+    height: 5px;
+    width: 24px;
+    background-color: var(--gray-800);
+}

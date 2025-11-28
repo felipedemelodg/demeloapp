@@ -1,0 +1,38 @@
+:root{
+    --nav-text-display:flex;
+    --nav-button-display:block;
+}
+
+
+/* navigation */
+.nav-menu{
+    position: relative;
+    /* right: 10rem; */
+    /* margin-right: 250px; */
+    /* top:4px; */
+    transition: width 0.9s ease, padding 0.9s ease;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.nav-menu ul {
+    display: var(--nav-text-display);
+    gap: 1rem;
+    list-style: none;
+   
+}
+
+.nav-menu .nav-item a {
+    color: var(--nav-item-color);
+    font-family: var(--font-family-base);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-xs);
+    transition: color .2s ease;
+}
+
+.nav-menu .nav-item a:hover {
+    color: var(--nav-item-hover);
+}
+

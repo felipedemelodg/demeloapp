@@ -1,7 +1,7 @@
 :root {
     /* header */
     --header-height: 72px;
-    --header-bg: var(--color-br-primary);
+    --header-bg: var(--color-bg-primary);
     --header-text: var(--color-text-inverse);
 
     /* navegacao */
@@ -9,7 +9,7 @@
     --nav-item-hover: var(--color-primary-main);
 
     /* busca */
-    --search-bg: var(--gray-800);
+    --search-bg: var(--gray-50);
     --search-text: var(--color-text-primary);
     --search-border: var(--gray-700);
 

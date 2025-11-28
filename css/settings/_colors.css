@@ -23,13 +23,13 @@
 /* 2. Token semânticos - theme dark*/
  /*---texto--- */
       /* texto principal*/
-      --color-text-primary: var(--gray-50);
+      --color-text-primary: var(--gray-800);
       /*textos médios */
       --color-text-secondary:var(--gray-50);
       /*textos fracos */
       --color-text-muted: var(--gray-50);
       /*texto sobre areas claras */
-      --color-text-inverse: var(--gray-50);
+      --color-text-inverse: var(--gray-600);
 
 /*---fundos--- */
       /*fundo principal*/

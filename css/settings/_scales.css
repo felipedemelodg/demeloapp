@@ -1,0 +1,28 @@
+:root {
+    /* tamanhos */
+    --img-scale-md: 0.95;
+    --img-scale-sm: 0.85;
+    /* largura imagens slides */
+    --slide01-xicara-w: 340px;
+    --slide01-mousepad-w: 540px;
+    --slide01-mouse-w: 175px;
+    --slide01-tampa-w: 62px;
+    --slide01-caneta-w: 205px;
+
+    /* positiçao padrao */
+    --slide01-xicara-t:35%;
+    --slide01-xicara-l:15%;
+    --slide01-mousepad-t:60%;
+    --slide01-mousepad-l:50%;
+    --slide01-mouse-t:75%;
+    --slide01-mouse-l:80%;
+    --slide01-tampa-t:35%;
+    --slide01-tampa-l:80%;
+    --slide01-caneta-t:70%;
+    --slide01-caneta-l:88%;
+    /* formulario de busca */
+    --search-form-w:35px;
+    --search-form-h:35px
+
+
+}

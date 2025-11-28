@@ -1,24 +1,32 @@
 @import url(css/settings/_colors.css);
-@import url(css/settings/_fonts.css);
 @import url(css/settings/_components-design-tokens.css);
+@import url(css/settings/_typography.css);
+@import url(css/settings/_sizes.css);
+@import url(css/settings/_scales.css);
+@import url(css/settings/_breakpoints.css);
 
 /* @import url(css/tools/_mixins.css); */
 
 @import url(css/generic/_reset.css);
 @import url(css/generic/_base.css);
+@import url(css/generic/_pages.css);
+
+@import url(css/generic/_fonts.css);
+
 
 @import url(css/elements/_headings.css);
 @import url(css/elements/_text.css);
+@import url(css/elements/_links.css);
 
 @import url(css/objects/_container.css);
 @import url(css/objects/_grid.css);
 
-@import url(css/components/_header.css);
-@import url(css/components/_header-reponsive.css);
-@import url(css/components/_nav.css);
+
+@import url(css/components/header/index.css);
+
 @import url(css/components/_button.css);
 @import url(css/components/_card.css);
-@import url(css/components/_search.css);
+@import url(css/components/slides/index.css);
 
 @import url(css/utilities/_u-text.css); 
 @import url(css/utilities/_u-spacing.css);

@@ -1,0 +1,45 @@
+/* Fundo */
+.slide-01-fundo {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* fundo */
+}
+
+/* Xícara */
+.slide-01-xicara {
+    width: var(--slide01-xicara-w);
+    top: var(--slide01-xicara-t);
+    left: var(--slide01-xicara-l);
+    z-index: 3;
+    /* ou outra posição */
+}
+
+.slide-01-mouse-pad {
+    width: var(--slide01-mousepad-w);
+    top: var(--slide01-mousepad-t);
+    left: var(--slide01-mousepad-l);
+
+}
+
+.slide-01-mouse {
+    width: var(--slide01-mouse-w);
+    top: var(--slide01-mouse-t);
+    left: var(--slide01-mouse-l);
+}
+
+.slide-01-tampa-caneta {
+    width: var(--slide01-tampa-w);
+    top: var(--slide01-tampa-t);
+    left: var(--slide01-tampa-l);
+}
+
+.slide-01-caneta {
+    width: var(--slide01-caneta-w);
+    top: var(--slide01-caneta-t);
+    left: var(--slide01-caneta-l);
+}
