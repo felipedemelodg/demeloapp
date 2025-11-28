@@ -1,0 +1,19 @@
+.rotate-45 {
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    
+}
+
+
+.rotate--45 {
+    transform: rotate(-45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+}

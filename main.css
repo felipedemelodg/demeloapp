@@ -31,4 +31,6 @@
 @import url(css/utilities/_u-text.css); 
 @import url(css/utilities/_u-spacing.css);
 @import url(css/utilities/_u-helpers.css);
+@import url(css/utilities/_u-hidden.css);
+@import url(css/utilities/_u-rotate.css);
 

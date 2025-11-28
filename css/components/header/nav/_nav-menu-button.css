@@ -1,16 +1,25 @@
-.nav-menu-button{
+.nav-menu-button {
     width: 24px;
-    height: 20px;
+    height: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
+    position: relative;
 }
 
 
-.nav-menu-button>div{
+.nav-menu-button>div {
     height: 5px;
     width: 24px;
     background-color: var(--gray-800);
 }
-/* .nav-menu-button */
+
+.line-2 {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+
+.line-1{
+       transition: transform 0.3s ease;
+}
