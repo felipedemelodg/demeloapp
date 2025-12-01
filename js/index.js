@@ -1,2 +1,2 @@
-import { toggle_button } from './components/header/nav/nav-toogle'
+import { toggle_button } from './components/nav-toogle'
 toggle_button()

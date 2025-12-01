@@ -37,14 +37,10 @@
     position: fixed;
     /* top: -100px; */
     z-index: 3;
-    background-color: aliceblue;
+    background-color: var(--gray-50);
     height: 0vh;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-.tag-container{
-    height: 80%;
-    width: 90%;
+    /* align-items: center; */
 }
