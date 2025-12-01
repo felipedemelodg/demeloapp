@@ -1,78 +1,84 @@
 :root {
-  
+
   /*1. PALETA BRUTA (neutros e brande) */
-    --gray-900: #0a0a0a;
-    --gray-800: #1a1a1a;
-    --gray-700: #333333;
-    --gray-600: #4d4d4d;
-    --gray-500: #666666;
-    --gray-400: #808080;
-    --gray-300: #999999;
-    --gray-200: #b3b3b3;
-    --gray-100: #cccccc;
-    --gray-50: #e6e6e6;
+  --gray-900: #0a0a0a;
+  --gray-800: #1a1a1a;
+  --gray-700: #333333;
+  --gray-600: #4d4d4d;
+  --gray-500: #666666;
+  --gray-400: #808080;
+  --gray-300: #999999;
+  --gray-200: #b3b3b3;
+  --gray-100: #cccccc;
+  --gray-50: #e6e6e6;
 
-    --color-primary-main: #ff6f61; /*cor primaria */ 
-    --color-secondary-main: #0d0d0d;/*cor secondária*/
+  --color-primary-main: #ff6f61;
+  /*cor primaria */
+  --color-secondary-main: #0d0d0d;
+  /*cor secondária*/
 
-    --color-success: rgb(40, 158, 40);
-    --color-warning: rgb(255, 208, 0);
-    --color-error: rgb(209, 3, 3);
-    --color-info: rgb(0, 129, 214);
+  --color-tag-ilustracao: #d38d5f;
+  --color-tag-appSites: #abc837;
+  --color-tag-designergrafico: #5f8dd3;
 
-/* 2. Token semânticos - theme dark*/
- /*---texto--- */
-      /* texto principal*/
-      --color-text-primary: var(--gray-800);
-      /*textos médios */
-      --color-text-secondary:var(--gray-50);
-      /*textos fracos */
-      --color-text-muted: var(--gray-50);
-      /*texto sobre areas claras */
-      --color-text-inverse: var(--gray-600);
+  --color-success: rgb(40, 158, 40);
+  --color-warning: rgb(255, 208, 0);
+  --color-error: rgb(209, 3, 3);
+  --color-info: rgb(0, 129, 214);
 
-/*---fundos--- */
-      /*fundo principal*/
-      --color-bg-primary: var(--gray-900);
-      /* cartões e blocos*/
-      --color-bg-secondary: var(--gray--800);
-      /*separações sutis */
-      --color-bg-tertiary: var(--gray-50);
-      /*fundo claro em dark */
-      --color-bg-primary: var(--gray-50);
+  /* 2. Token semânticos - theme dark*/
+  /*---texto--- */
+  /* texto principal*/
+  --color-text-primary: var(--gray-800);
+  /*textos médios */
+  --color-text-secondary: var(--gray-50);
+  /*textos fracos */
+  --color-text-muted: var(--gray-50);
+  /*texto sobre areas claras */
+  --color-text-inverse: var(--gray-600);
 
-/*---bordas---*/      
-    --color-border-light: var(--gray-700);
-    --color-border: var(--gray-600);
-    --color-border-strong: var(--gray-500);
+  /*---fundos--- */
+  /*fundo principal*/
+  --color-bg-primary: var(--gray-900);
+  /* cartões e blocos*/
+  --color-bg-secondary: var(--gray--800);
+  /*separações sutis */
+  --color-bg-tertiary: var(--gray-50);
+  /*fundo claro em dark */
+  --color-bg-primary: var(--gray-50);
 
-/* ---estados (UI Feddback)--- */
-   --color-state-success:var(--color-success);
-   --color-state-warning:var(--color-warning);
-   --color-state-error:var(--color-error);
-   --color-state-info:var(--color-info);
-   
-/* --- interações --- */
---color-hover:var(--gray-800);
---color-active:var(--gray-700);
---color-focus:var(--gray-500);
+  /*---bordas---*/
+  --color-border-light: var(--gray-700);
+  --color-border: var(--gray-600);
+  --color-border-strong: var(--gray-500);
 
-/* ---componentes--- */
---color-card-bg:var(--gray-800);
---color-header-bg:var(--gray-900);
---color-footer-bg:var(--gray-900);
+  /* ---estados (UI Feddback)--- */
+  --color-state-success: var(--color-success);
+  --color-state-warning: var(--color-warning);
+  --color-state-error: var(--color-error);
+  --color-state-info: var(--color-info);
 
---color-input-bg:var(--gray-800);
---color-input-text:var(--gray-50);
---color-input-placeholder:var(--gray-400);
+  /* --- interações --- */
+  --color-hover: var(--gray-800);
+  --color-active: var(--gray-700);
+  --color-focus: var(--gray-500);
 
---color-button-primary-bg:var(--color-primary-main);
---color-button-primary-text:var(--gray-900);
+  /* ---componentes--- */
+  --color-card-bg: var(--gray-800);
+  --color-header-bg: var(--gray-900);
+  --color-footer-bg: var(--gray-900);
 
---color-button-secondary-bg:var(--gray-700);
---color-button-secondary-text:var(--gray-50);
+  --color-input-bg: var(--gray-800);
+  --color-input-text: var(--gray-50);
+  --color-input-placeholder: var(--gray-400);
 
-  }
+  --color-button-primary-bg: var(--color-primary-main);
+  --color-button-primary-text: var(--gray-900);
+
+  --color-button-secondary-bg: var(--gray-700);
+  --color-button-secondary-text: var(--gray-50);
+
+}
 
 /*:root {
     --color-cta-button: #ffc107;

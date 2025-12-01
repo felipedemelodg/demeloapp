@@ -1,0 +1,20 @@
+.tag-container{
+    /* height: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    color: var(--gray-50);
+    font-weight: 600;
+}
+.ilustracao{background-color: var(--color-tag-ilustracao);}
+.app-sites{background-color: var(--color-tag-appSites);}
+.designer-grafico{background-color: var(--color-tag-designergrafico);}
+.tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    margin: 1px;
+    height: 30px;
+    padding:1px 10px 2px 10px;
+}

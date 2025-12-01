@@ -1,6 +1,15 @@
+@media(max-width:480px) {
+    :root {
+        --nav-text-display: none;
+        /* --menu-fundo-expandido-display: none; */
+    }
+
+}
+
 @media(max-width:360px) {
     :root {
         --nav-text-display: none;
+        /* --menu-fundo-expandido-display: none; */
     }
 
 }
