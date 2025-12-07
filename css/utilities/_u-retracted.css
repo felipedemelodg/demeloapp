@@ -1,0 +1,5 @@
+.retracted {
+    padding: none;
+    height: 0vh;
+    transition: width .5s ease, height .5s ease;
+}
